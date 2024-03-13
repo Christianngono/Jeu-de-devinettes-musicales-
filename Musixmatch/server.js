@@ -8,7 +8,7 @@ const users = [];
 
 // Fonction pour hacher un mot de passe
 const hashPassword = async (password) => {
-  // Implémentation de la fonction de hachage (non fournie ici)
+  // Implémentation de la fonction de hachage
 };
 
 // Fonction pour effectuer une requête GET à l'API Musixmatch
@@ -43,9 +43,9 @@ const getLyrics = () => {
 // Création du serveur HTTP
 const server = http.createServer((req, res) => {
   if (req.url === '/register' && req.method === 'POST') {
-    // Gestion de l'inscription (non fournie ici)
+    // Gestion de l'inscription
   } else if (req.url === '/login' && req.method === 'POST') {
-    // Gestion de la connexion (non fournie ici)
+    // Gestion de la connexion 
   } else if (req.url === '/lyrics' && req.method === 'GET') {
     // Obtenir les paroles d'une chanson aléatoire depuis l'API Musixmatch
     getLyrics()
